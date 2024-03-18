@@ -1,0 +1,219 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* nav 1 start from here */
+
+.bd1{
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.navbar {
+  position: absolute;
+  top: 5px;
+  background-color: rgb(27, 215, 136);
+  margin: 1px;
+  padding: 15px;
+  overflow: auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.le {
+  list-style: none;
+  float: left;
+}
+
+.head {
+  text-align: center;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: white;
+  margin-top: -29px;
+}
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding: 1px;
+  transition: 1s;
+  border-bottom: 2px solid white;
+}
+
+.link:hover {
+  color: rgb(27, 215, 136);
+  border-bottom: 2px solid rgb(27, 215, 136);
+  border-top: 2px solid rgb(27, 215, 136);
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s;
+  
+}
+
+.navbar:hover {
+  background-color: transparent;
+  border: 1px solid rgb(27, 215, 136);
+  border-radius: 5px;
+  padding: 17px;
+  background-color: black;
+
+}
+
+.search {
+  position: absolute;
+  right: 18px;
+  padding: 9px;
+  border-radius: 20px;
+  bottom: 20px;
+  outline: none;
+  border: none;
+  margin: -9px;
+}
+
+.search:hover {
+  color: rgb(27, 215, 136);
+}
+.material-symbols-outlined {
+  color: rgb(27, 215, 136);
+  position: absolute;
+  right: 15px;
+  bottom: 16px;
+}
+
+/* nav 2 start from here */
+
+.ul_nav2 {
+  background-color: rgb(27, 215, 136);
+  overflow: auto;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.head2 {
+  float: left;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  margin: -12px;
+}
+
+.le2 {
+  float: left;
+  list-style: none;
+  padding: 8px;
+}
+
+.link1 {
+  text-decoration: none;
+  margin: 15px;
+  font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 05px;
+  left: 413px;
+  border-bottom: 2px solid white;
+  margin: 20px;
+  transition: 1s;
+}
+
+.link1:hover {
+  color: rgb(27, 215, 136);
+  border-right: 2px solid rgb(27, 215, 136);
+  border-left: 2px solid rgb(27, 215, 136);
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
+  font-size: 50px;
+  border-bottom: none;
+  background-color: rgba(20, 239, 148, 0.106);
+}
+
+.ul_nav2:hover {
+  background-color: black;
+  border: 2px solid rgb(27, 215, 136);
+}
+
+.search2 {
+  position: absolute;
+  right: 10px;
+  padding: 9px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin: -3px;
+}
+
+/* nav 3 start from here */
+.bd2{
+  position: absolute;
+  bottom: 3px;
+}
+.head3{
+  text-align: center;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: rgb(27, 215, 136);
+  margin-top: -29px;
+}
+
+.ul_nav3{
+  background-color: rgb(27, 215, 136); 
+  overflow: hidden;
+  position: relative;
+}
+
+.le3{
+float: left;
+list-style: none;
+}
+
+.link3{
+  text-decoration: none;
+  color: white;
+  font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  padding: 23px 40px;
+  display: block;
+  transition: .7s;
+}
+
+.link3:hover{
+  border: 2px solid rgb(27, 215, 136);
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  padding: 30px ;
+}
+
+.search3 {
+  position: absolute;
+  right: 18px;
+  padding: 9px;
+  border-radius: 20px;
+  bottom: 56px;
+  outline: none;
+  border: none;
+  margin: -9px;
+}
